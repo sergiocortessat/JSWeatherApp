@@ -1,10 +1,8 @@
 import './style.css';
 import './weatherFaviCon.png';
-import Sunny from './sunny.jpg';
 import Rainy from './rain.jpg';
 import Fog from './fog.jpg';
 import Cloud from './cloud.jpg';
-import Sunny2 from './suny2.jpg';
 import Sunny3 from './suny3.jpg';
 import weatherDataFilter from './logic';
 
