@@ -33,7 +33,7 @@
 
 <!-- ABOUT THE PROJECT   -->
 ## About The Project
-The Weather Web Application allows user to set different cities and check the forecast weather for the upcoming 24 hours. As such the app makes usage of API with Async to constantly render and display the most accurate information of the weather. therefore updating itself every certain time. Each person can check and set the city they wish and the weather will appear. Animations allow for the user to know the current conditions and upcoming ones for the next hours and days.
+The Weather Web Application allows user to set different cities and check the forecast weather for the upcoming 24 hours. As such the app makes usage of API with Async to constantly render and display the most accurate information of the weather. therefore updating itself every certain time. Each person can check and set the city they wish and the weather will appear. Animations allow for the user to know the current conditions and upcoming ones for the next hours and days..
 
 ## Screenshot Test
 
