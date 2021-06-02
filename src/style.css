@@ -21,7 +21,7 @@ input {
 }
 
 .body-background {
-  background: url(./main.jpg);
+  background: url(./assets/main.jpg);
   line-height: normal;
   overflow-x: hidden;
   height: 100%;
@@ -38,4 +38,8 @@ input {
   width: 50%;
   margin: 0 auto;
   min-height: auto;
+}
+
+.weather > img {
+  min-width: 100px;
 }

@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _main_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./main.jpg */ \"./src/main.jpg\");\n// Imports\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Squada+One&display=swap);\"]);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_main_jpg__WEBPACK_IMPORTED_MODULE_2__);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  font-family: \\\"Squada One\\\", cursive;\\n  color: white;\\n}\\n\\nh1 {\\n  font-size: 4.5rem;\\n}\\n\\nbody,\\nhtml {\\n  height: 100%;\\n}\\n\\ninput {\\n  background-color: rgba(0, 0, 0, 0.5) !important;\\n  border-radius: 10px !important;\\n  color: white !important;\\n}\\n\\n.body-background {\\n  background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  line-height: normal;\\n  overflow-x: hidden;\\n  height: 100%;\\n  background-position: center;\\n  background-repeat: no-repeat;\\n  background-size: cover;\\n  background-attachment: fixed;\\n}\\n\\n.content {\\n  font-size: 2.5rem;\\n  background-color: rgba(0, 0, 0, 0.5);\\n  border-radius: 10px;\\n  width: 50%;\\n  margin: 0 auto;\\n  min-height: auto;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://JSWeatherApp/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _assets_main_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/main.jpg */ \"./src/assets/main.jpg\");\n// Imports\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Squada+One&display=swap);\"]);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_main_jpg__WEBPACK_IMPORTED_MODULE_2__);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  font-family: \\\"Squada One\\\", cursive;\\n  color: white;\\n}\\n\\nh1 {\\n  font-size: 4.5rem;\\n}\\n\\nbody,\\nhtml {\\n  height: 100%;\\n}\\n\\ninput {\\n  background-color: rgba(0, 0, 0, 0.5) !important;\\n  border-radius: 10px !important;\\n  color: white !important;\\n}\\n\\n.body-background {\\n  background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  line-height: normal;\\n  overflow-x: hidden;\\n  height: 100%;\\n  background-position: center;\\n  background-repeat: no-repeat;\\n  background-size: cover;\\n  background-attachment: fixed;\\n}\\n\\n.content {\\n  font-size: 2.5rem;\\n  background-color: rgba(0, 0, 0, 0.5);\\n  border-radius: 10px;\\n  width: 50%;\\n  margin: 0 auto;\\n  min-height: auto;\\n}\\n\\n.weather > img {\\n  min-width: 100px;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://JSWeatherApp/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -60,23 +60,83 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
-/***/ "./src/cloud.jpg":
-/*!***********************!*\
-  !*** ./src/cloud.jpg ***!
-  \***********************/
+/***/ "./src/assets/cloud.jpg":
+/*!******************************!*\
+  !*** ./src/assets/cloud.jpg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"22208e8e3a4efe84ffba.jpg\";\n\n//# sourceURL=webpack://JSWeatherApp/./src/cloud.jpg?");
+eval("module.exports = __webpack_require__.p + \"22208e8e3a4efe84ffba.jpg\";\n\n//# sourceURL=webpack://JSWeatherApp/./src/assets/cloud.jpg?");
 
 /***/ }),
 
-/***/ "./src/fog.jpg":
-/*!*********************!*\
-  !*** ./src/fog.jpg ***!
-  \*********************/
+/***/ "./src/assets/fog.jpg":
+/*!****************************!*\
+  !*** ./src/assets/fog.jpg ***!
+  \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"7a0c5e037125bb4161b7.jpg\";\n\n//# sourceURL=webpack://JSWeatherApp/./src/fog.jpg?");
+eval("module.exports = __webpack_require__.p + \"7a0c5e037125bb4161b7.jpg\";\n\n//# sourceURL=webpack://JSWeatherApp/./src/assets/fog.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/main.jpg":
+/*!*****************************!*\
+  !*** ./src/assets/main.jpg ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"840cc29659a4ce35f2dd.jpg\";\n\n//# sourceURL=webpack://JSWeatherApp/./src/assets/main.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/rain.jpg":
+/*!*****************************!*\
+  !*** ./src/assets/rain.jpg ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"d03ac283e75457ebbac7.jpg\";\n\n//# sourceURL=webpack://JSWeatherApp/./src/assets/rain.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/suny3.jpg":
+/*!******************************!*\
+  !*** ./src/assets/suny3.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c528fb250bb77832420f.jpg\";\n\n//# sourceURL=webpack://JSWeatherApp/./src/assets/suny3.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/weatherFaviCon.png":
+/*!***************************************!*\
+  !*** ./src/assets/weatherFaviCon.png ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"04fb1e2f4ec7ec4e0917.png\";\n\n//# sourceURL=webpack://JSWeatherApp/./src/assets/weatherFaviCon.png?");
+
+/***/ }),
+
+/***/ "./src/async.js":
+/*!**********************!*\
+  !*** ./src/async.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _logic__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./logic */ \"./src/logic.js\");\n/* harmony import */ var _dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./dom */ \"./src/dom.js\");\n\n\n\n// ASYNC FUNCTION // FETCHING WEATHER APP\n\nconst getWeatherData = async (location) => {\n  const apiKey = '6bec4de18a94a1ec6fd65b14fff7ae04';\n  const tempUnits = 'metric';\n  const apiCall = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=${tempUnits}&appid=${apiKey}`;\n  const response = await fetch(apiCall);\n  const weatherData = await response.json();\n  const test = (0,_logic__WEBPACK_IMPORTED_MODULE_0__.default)(weatherData, location);\n  (0,_dom__WEBPACK_IMPORTED_MODULE_1__.default)(test);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getWeatherData);\n\n//# sourceURL=webpack://JSWeatherApp/./src/async.js?");
+
+/***/ }),
+
+/***/ "./src/dom.js":
+/*!********************!*\
+  !*** ./src/dom.js ***!
+  \********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _assets_rain_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/rain.jpg */ \"./src/assets/rain.jpg\");\n/* harmony import */ var _assets_fog_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/fog.jpg */ \"./src/assets/fog.jpg\");\n/* harmony import */ var _assets_cloud_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/cloud.jpg */ \"./src/assets/cloud.jpg\");\n/* harmony import */ var _assets_suny3_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/suny3.jpg */ \"./src/assets/suny3.jpg\");\n// PUSH TO DOM\n\n\n\n\n\nconst pushToDom = (parsedWeather) => {\n  // SELECTING BACKGROUND\n  const body = document.getElementById('body');\n  if (parsedWeather.weatherBackground === 'Clear') {\n    body.style.backgroundImage = `url(${_assets_suny3_jpg__WEBPACK_IMPORTED_MODULE_3__})`;\n  } else if (parsedWeather.weatherBackground === 'Rain' || parsedWeather.weatherBackground === 'Drizzle' || parsedWeather.weatherBackground === 'Thunderstorm') {\n    body.style.backgroundImage = `url(${_assets_rain_jpg__WEBPACK_IMPORTED_MODULE_0__})`;\n  } else if (parsedWeather.weatherBackground === 'Snow') {\n    body.style.backgroundImage = 'url(\"\")';\n  } else if (parsedWeather.weatherBackground === 'Clouds') {\n    body.style.backgroundImage = `url(${_assets_cloud_jpg__WEBPACK_IMPORTED_MODULE_2__})`;\n  } else {\n    body.style.backgroundImage = `url(${_assets_fog_jpg__WEBPACK_IMPORTED_MODULE_1__})`;\n  }\n\n  // TEMP WEATHER BUTTON\n  const tempButton = document.querySelector('.temp-button');\n  tempButton.classList.remove('d-none');\n  tempButton.classList.add('btn', 'btn-secondary', 'cel', 'my-3');\n  tempButton.innerText = 'FAHRENHEIT';\n\n  // SELECTING AND CLEAN DOM\n  const resultsDiv = document.querySelector('.content');\n  const nameDiv = document.querySelector('.name');\n  nameDiv.innerHTML = '';\n  const weatherDiv = document.querySelector('.weather');\n  weatherDiv.innerHTML = '';\n  const tempDiv = document.querySelector('.temp');\n  tempDiv.innerHTML = '';\n  const realTempDiv = document.querySelector('.real-temp');\n  realTempDiv.innerHTML = '';\n\n  // ELEMENTS TO PUSH\n  const nameElement = document.createElement('h2');\n  nameElement.textContent = parsedWeather.cityName.toUpperCase();\n\n  const weatherIconElement = document.createElement('img');\n  weatherIconElement.src = `http://openweathermap.org/img/w/${parsedWeather.weatherIcon}.png`;\n\n  const weatherName = document.createElement('p');\n  weatherName.textContent = 'Condition';\n\n  const weatherNameElement = document.createElement('p');\n  weatherNameElement.textContent = parsedWeather.weather;\n\n  const tempName = document.createElement('p');\n  tempName.textContent = 'Temperature';\n\n  const tempElement = document.createElement('p');\n  tempElement.textContent = parsedWeather.condition;\n  tempElement.innerHTML += '&#8451';\n\n  const realTempName = document.createElement('p');\n  realTempName.textContent = 'Real Thermal Feeling';\n\n  const realTempElement = document.createElement('p');\n  realTempElement.textContent = parsedWeather.realFeel;\n  realTempElement.innerHTML += '&#8451';\n\n  // APPEND CHILD'S\n\n  nameDiv.appendChild(nameElement);\n  weatherDiv.append(weatherName, weatherIconElement, weatherNameElement);\n  tempDiv.append(tempName, tempElement);\n  realTempDiv.append(realTempName, realTempElement);\n  resultsDiv.append(tempButton, nameDiv, weatherDiv, tempDiv, realTempDiv);\n\n  // TEMPERATURE BUTTON EVENT LISTENER\n\n  tempButton.addEventListener('click', (e) => {\n    if (e.target.classList.contains('cel')) {\n      tempButton.classList.remove('cel');\n      tempDiv.innerHTML = '';\n      const innerTempName = document.createElement('p');\n      innerTempName.textContent = 'Temperature';\n      const innerTempElement = document.createElement('p');\n      innerTempElement.textContent = parsedWeather.fCondition;\n      innerTempElement.innerHTML += '&#8457';\n      tempDiv.append(innerTempName, innerTempElement);\n\n      realTempDiv.innerHTML = '';\n      const innerRealTempName = document.createElement('p');\n      innerRealTempName.textContent = 'Real Thermal Feeling';\n      const innerRealTempElement = document.createElement('p');\n      innerRealTempElement.textContent = parsedWeather.fCondition;\n      innerRealTempElement.innerHTML += '&#8457';\n      realTempDiv.append(innerRealTempName, innerRealTempElement);\n      tempButton.innerText = 'CELSIUS';\n    } else {\n      tempButton.classList.add('cel');\n      tempDiv.innerHTML = '';\n      realTempDiv.innerHTML = '';\n      tempDiv.append(tempName, tempElement);\n      realTempDiv.append(realTempName, realTempElement);\n      tempButton.innerText = 'FAHRENHEIT';\n    }\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (pushToDom);\n\n//# sourceURL=webpack://JSWeatherApp/./src/dom.js?");
 
 /***/ }),
 
@@ -86,7 +146,7 @@ eval("module.exports = __webpack_require__.p + \"7a0c5e037125bb4161b7.jpg\";\n\n
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _weatherFaviCon_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./weatherFaviCon.png */ \"./src/weatherFaviCon.png\");\n/* harmony import */ var _rain_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./rain.jpg */ \"./src/rain.jpg\");\n/* harmony import */ var _fog_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./fog.jpg */ \"./src/fog.jpg\");\n/* harmony import */ var _cloud_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./cloud.jpg */ \"./src/cloud.jpg\");\n/* harmony import */ var _suny3_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./suny3.jpg */ \"./src/suny3.jpg\");\n/* harmony import */ var _logic__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./logic */ \"./src/logic.js\");\n\n\n\n\n\n\n\n\n// FETCHING WEATHER APP\n\nconst consoleLogData = (weatherData) => {\n  console.log(weatherData);\n};\n\nconst pushToDom = (parsedWeather) => {\n  const body = document.getElementById('body');\n  if (parsedWeather.weatherBackground === 'Clear') {\n    body.style.backgroundImage = `url(${_suny3_jpg__WEBPACK_IMPORTED_MODULE_5__})`;\n  } else if (parsedWeather.weatherBackground === 'Rain' || parsedWeather.weatherBackground === 'Drizzle' || parsedWeather.weatherBackground === 'Thunderstorm') {\n    body.style.backgroundImage = `url(${_rain_jpg__WEBPACK_IMPORTED_MODULE_2__})`;\n  } else if (parsedWeather.weatherBackground === 'Snow') {\n    body.style.backgroundImage = 'url(\"\")';\n  } else if (parsedWeather.weatherBackground === 'Clouds') {\n    body.style.backgroundImage = `url(${_cloud_jpg__WEBPACK_IMPORTED_MODULE_4__})`;\n  } else {\n    body.style.backgroundImage = `url(${_fog_jpg__WEBPACK_IMPORTED_MODULE_3__})`;\n  }\n\n  const tempButton = document.querySelector('.temp-button');\n  tempButton.classList.remove('d-none');\n  tempButton.classList.add('btn', 'btn-secondary', 'cel', 'my-3');\n  tempButton.innerText = 'FAHRENHEIT';\n\n  const resultsDiv = document.querySelector('.content');\n  const nameDiv = document.querySelector('.name');\n  nameDiv.innerHTML = '';\n  const weatherDiv = document.querySelector('.weather');\n  weatherDiv.innerHTML = '';\n  const tempDiv = document.querySelector('.temp');\n  tempDiv.innerHTML = '';\n  const realTempDiv = document.querySelector('.real-temp');\n  realTempDiv.innerHTML = '';\n\n  const nameElement = document.createElement('h2');\n  nameElement.textContent = parsedWeather.cityName.toUpperCase();\n  const weatherIconElement = document.createElement('img');\n  weatherIconElement.src = `http://openweathermap.org/img/w/${parsedWeather.weatherIcon}.png`;\n  const weatherName = document.createElement('p');\n  weatherName.textContent = 'Condition';\n  const weatherNameElement = document.createElement('p');\n  weatherNameElement.textContent = parsedWeather.weather;\n\n  const tempName = document.createElement('p');\n  tempName.textContent = 'Temperature';\n  const tempElement = document.createElement('p');\n  tempElement.textContent = parsedWeather.condition;\n  tempElement.innerHTML += '&#8451';\n\n  const realTempName = document.createElement('p');\n  realTempName.textContent = 'Real Thermal Feeling';\n  const realTempElement = document.createElement('p');\n  realTempElement.textContent = parsedWeather.realFeel;\n  realTempElement.innerHTML += '&#8451';\n  nameDiv.appendChild(nameElement);\n  weatherDiv.append(weatherName, weatherIconElement, weatherNameElement);\n  tempDiv.append(tempName, tempElement);\n  realTempDiv.append(realTempName, realTempElement);\n  resultsDiv.append(tempButton, nameDiv, weatherDiv, tempDiv, realTempDiv);\n\n  tempButton.addEventListener('click', (e) => {\n    if (e.target.classList.contains('cel')) {\n      tempButton.classList.remove('cel');\n      tempDiv.innerHTML = '';\n      const innerTempName = document.createElement('p');\n      innerTempName.textContent = 'Temperature';\n      const innerTempElement = document.createElement('p');\n      innerTempElement.textContent = parsedWeather.fCondition;\n      innerTempElement.innerHTML += '&#8457';\n      tempDiv.append(innerTempName, innerTempElement);\n\n      realTempDiv.innerHTML = '';\n      const innerRealTempName = document.createElement('p');\n      innerRealTempName.textContent = 'Real Thermal Feeling';\n      const innerRealTempElement = document.createElement('p');\n      innerRealTempElement.textContent = parsedWeather.fCondition;\n      innerRealTempElement.innerHTML += '&#8457';\n      realTempDiv.append(innerRealTempName, innerRealTempElement);\n      tempButton.innerText = 'CELSIUS';\n    } else {\n      tempButton.classList.add('cel');\n      tempDiv.innerHTML = '';\n      realTempDiv.innerHTML = '';\n      tempDiv.append(tempName, tempElement);\n      realTempDiv.append(realTempName, realTempElement);\n      tempButton.innerText = 'FAHRENHEIT';\n    }\n  });\n};\n\n// ASYNC FUNCTION\n\nconst getWeatherData = async (location) => {\n  const apiKey = '6bec4de18a94a1ec6fd65b14fff7ae04';\n  const tempUnits = 'metric';\n  const apiCall = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=${tempUnits}&appid=${apiKey}`;\n  const response = await fetch(apiCall);\n  const weatherData = await response.json();\n  const test = (0,_logic__WEBPACK_IMPORTED_MODULE_6__.default)(weatherData, location);\n  consoleLogData(test);\n  pushToDom(test);\n};\n\nconst search = {};\nsearch.EnterPress = () => {\n  document.querySelector('input')\n    .addEventListener('keyup', (keyPressed) => {\n      if (keyPressed.which === 13) {\n        const location = document.querySelector('input').value;\n        getWeatherData(location);\n      }\n    });\n  search.Click = () => {\n    document.querySelector('.search-button')\n      .addEventListener('click', () => {\n        const temp = document.querySelector('.real-temp');\n        temp.classList.add('pb-2');\n        const location = document.querySelector('input').value;\n        getWeatherData(location);\n      });\n  };\n};\n\nsearch.EnterPress();\nsearch.Click();\n\n\n//# sourceURL=webpack://JSWeatherApp/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _assets_weatherFaviCon_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/weatherFaviCon.png */ \"./src/assets/weatherFaviCon.png\");\n/* harmony import */ var _searchEventListener__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./searchEventListener */ \"./src/searchEventListener.js\");\n\n\n\n\nconst consoleLogData = (weatherData) => {\n  console.log(weatherData);\n};\n\n_searchEventListener__WEBPACK_IMPORTED_MODULE_2__.default.EnterPress();\n_searchEventListener__WEBPACK_IMPORTED_MODULE_2__.default.Click();\n\n\n//# sourceURL=webpack://JSWeatherApp/./src/index.js?");
 
 /***/ }),
 
@@ -96,47 +156,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst weatherDataFilter = (data, location) => {\n  const cityName = location;\n  const condition = data.main.temp;\n  const weather = data.weather[0].description;\n  const weatherIcon = data.weather[0].icon;\n  const realFeel = data.main.feels_like;\n  const weatherBackground = data.weather[0].main;\n  const fCondition = Math.floor(condition * (9 / 5) + 32);\n  return {\n    cityName, condition, weather, weatherIcon, realFeel, weatherBackground, fCondition,\n  };\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (weatherDataFilter);\n\n\n//# sourceURL=webpack://JSWeatherApp/./src/logic.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst weatherDataFilter = (data, location) => {\n  const cityName = location;\n  const condition = data.main.temp;\n  const weather = data.weather[0].description;\n  const weatherIcon = data.weather[0].icon;\n  const realFeel = data.main.feels_like;\n  const weatherBackground = data.weather[0].main;\n  const fCondition = (condition * (9 / 5) + 32).toFixed(2);\n  const fRealFeel = (realFeel * (9 / 5) + 32).toFixed(2);\n  return {\n    cityName, condition, weather, weatherIcon, realFeel, weatherBackground, fCondition, fRealFeel,\n  };\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (weatherDataFilter);\n\n\n//# sourceURL=webpack://JSWeatherApp/./src/logic.js?");
 
 /***/ }),
 
-/***/ "./src/main.jpg":
-/*!**********************!*\
-  !*** ./src/main.jpg ***!
-  \**********************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ "./src/searchEventListener.js":
+/*!************************************!*\
+  !*** ./src/searchEventListener.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"840cc29659a4ce35f2dd.jpg\";\n\n//# sourceURL=webpack://JSWeatherApp/./src/main.jpg?");
-
-/***/ }),
-
-/***/ "./src/rain.jpg":
-/*!**********************!*\
-  !*** ./src/rain.jpg ***!
-  \**********************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"d03ac283e75457ebbac7.jpg\";\n\n//# sourceURL=webpack://JSWeatherApp/./src/rain.jpg?");
-
-/***/ }),
-
-/***/ "./src/suny3.jpg":
-/*!***********************!*\
-  !*** ./src/suny3.jpg ***!
-  \***********************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"c528fb250bb77832420f.jpg\";\n\n//# sourceURL=webpack://JSWeatherApp/./src/suny3.jpg?");
-
-/***/ }),
-
-/***/ "./src/weatherFaviCon.png":
-/*!********************************!*\
-  !*** ./src/weatherFaviCon.png ***!
-  \********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"04fb1e2f4ec7ec4e0917.png\";\n\n//# sourceURL=webpack://JSWeatherApp/./src/weatherFaviCon.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _async__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./async */ \"./src/async.js\");\n\n\n// SEARCH BUTTON AND KEYPRESS EVENT LISTENERS\nconst search = {};\nsearch.EnterPress = () => {\n  document.querySelector('input')\n    .addEventListener('keyup', (keyPressed) => {\n      if (keyPressed.which === 13) {\n        const location = document.querySelector('input').value;\n        (0,_async__WEBPACK_IMPORTED_MODULE_0__.default)(location);\n      }\n    });\n  search.Click = () => {\n    document.querySelector('.search-button')\n      .addEventListener('click', () => {\n        const temp = document.querySelector('.real-temp');\n        temp.classList.add('pb-2');\n        const location = document.querySelector('input').value;\n        (0,_async__WEBPACK_IMPORTED_MODULE_0__.default)(location);\n      });\n  };\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (search);\n\n//# sourceURL=webpack://JSWeatherApp/./src/searchEventListener.js?");
 
 /***/ })
 
