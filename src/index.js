@@ -4,6 +4,8 @@ import Sunny from './sunny.jpg';
 import Rainy from './rain.jpg';
 import Fog from './fog.jpg';
 import Cloud from './cloud.jpg';
+import Sunny2 from './suny2.jpg';
+import Sunny3 from './suny3.jpg';
 import weatherDataFilter from './logic';
 
 // FETCHING WEATHER APP
@@ -15,7 +17,7 @@ const consoleLogData = (weatherData) => {
 const pushToDom = (parsedWeather) => {
   const body = document.getElementById('body');
   if (parsedWeather.weatherBackground === 'Clear') {
-    body.style.backgroundImage = `url(${Sunny})`;
+    body.style.backgroundImage = `url(${Sunny3})`;
   } else if (parsedWeather.weatherBackground === 'Rain' || parsedWeather.weatherBackground === 'Drizzle' || parsedWeather.weatherBackground === 'Thunderstorm') {
     body.style.backgroundImage = `url(${Rainy})`;
   } else if (parsedWeather.weatherBackground === 'Snow') {
@@ -28,7 +30,7 @@ const pushToDom = (parsedWeather) => {
 
   const tempButton = document.querySelector('.temp-button');
   tempButton.classList.remove('d-none');
-  tempButton.classList.add('btn', 'btn-secondary', 'cel');
+  tempButton.classList.add('btn', 'btn-secondary', 'cel', 'my-3');
   tempButton.innerText = 'FAHRENHEIT';
 
   const resultsDiv = document.querySelector('.content');
