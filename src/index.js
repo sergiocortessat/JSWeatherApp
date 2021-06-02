@@ -6,6 +6,7 @@ import Fog from './fog.jpg';
 import Cloud from './cloud.jpg';
 import weatherDataFilter from './logic';
 
+
 // CHANGING BACKGROUND
 // Clouds
 // Fog
@@ -19,16 +20,16 @@ const consoleLogData = (weatherData) => {
 
 const pushToDom = (parsedWeather) => {
   const body = document.getElementById('body');
-  if (parsedWeather.weatherBackground === 'Clear' || parsedWeather.weatherBackground === 'Sunny') {
+  if (parsedWeather.weatherBackground === 'Clear') {
     body.style.backgroundImage = `url(${Sunny})`;
-  } else if (parsedWeather.weatherBackground === 'Fog') {
-    body.style.backgroundImage = `url(${Fog})`;
+  } else if (parsedWeather.weatherBackground === 'Rain' || parsedWeather.weatherBackground === 'Drizzle' || parsedWeather.weatherBackground === 'Thunderstorm') {
+    body.style.backgroundImage = `url(${Rainy})`;
   } else if (parsedWeather.weatherBackground === 'Snow') {
     body.style.backgroundImage = 'url("")';
   } else if (parsedWeather.weatherBackground === 'Clouds') {
     body.style.backgroundImage = `url(${Cloud})`;
   } else {
-    body.style.backgroundImage = `url(${Rainy})`;
+    body.style.backgroundImage = `url(${Fog})`;
   }
 
   const tempButton = document.querySelector('.temp-button');
@@ -47,7 +48,7 @@ const pushToDom = (parsedWeather) => {
   realTempDiv.innerHTML = '';
 
   const nameElement = document.createElement('h2');
-  nameElement.textContent = parsedWeather.cityName;
+  nameElement.textContent = parsedWeather.cityName.toUpperCase();
   const weatherIconElement = document.createElement('img');
   weatherIconElement.src = `http://openweathermap.org/img/w/${parsedWeather.weatherIcon}.png`;
   const weatherName = document.createElement('p');
