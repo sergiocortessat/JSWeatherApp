@@ -15,16 +15,46 @@
       crossorigin="anonymous"
     />
 
-    <link rel="icon" type="image/png" sizes="32x32" href="04fb1e2f4ec7ec4e0917.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="04fb1e2f4ec7ec4e0917.png"
+    />
     <title>Weather App</title>
-    <link href="https://www.fontzip.com/storage/2020/03/06/god-of-thunder/webfonts/god-of-thunder-Medium.css" rel="stylesheet" /><style>body{font-family:'god-of-thunder-Medium'}</style>
   </head>
 
-  <body class="container">
-<h1>Hello mate</h1>
+  <body id="body" class="body-background">
+    <header class="header"></header>
+    <div class="text-center">
+      <h1>Type your city</h1>
+      <div class="search-bar container d-flex mt-5 w-25">
+        <input
+          type="text"
+          placeholder="Enter city name"
+          class="form-control m-1"
+        />
+        <button class="search-button bi-search btn btn-secondary m-1"></button>
+      </div>
+    </div>
 
+    <div class="content my-2 text-center">
+<button class="temp-button d-none"></button>
+      <div class="name">
+      </div>
 
+      <div class="weather">
 
+      </div>
+
+      <div class="temp">
+
+  
+      </div>
+      <div class="real-temp">
+
+      </div>
+    </div>
 
     <script src="bundle.js"></script>
     <!-- Optional JavaScript -->

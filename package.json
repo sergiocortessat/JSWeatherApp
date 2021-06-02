@@ -21,10 +21,6 @@
   },
   "homepage": "https://github.com/sergiocortessat/JSWeatherApp#readme",
   "devDependencies": {
-    "@babel/cli": "^7.14.3",
-    "@babel/core": "^7.14.3",
-    "@babel/preset-env": "^7.14.2",
-    "babel": "^6.23.0",
     "babel-eslint": "^10.1.0",
     "css-loader": "^5.2.6",
     "eslint": "^7.27.0",
