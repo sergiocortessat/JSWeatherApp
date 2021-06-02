@@ -38,7 +38,7 @@ The Weather Web Application allows user to set different cities and check the fo
 ## Screenshot Test
 
 <p align="center">
-  <img height="auto" src="Screenshot.png">
+  <img height="auto" src="Screenshot2.png">
 </p>
 
 
