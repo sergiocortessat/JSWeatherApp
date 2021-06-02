@@ -6,12 +6,6 @@ import Fog from './fog.jpg';
 import Cloud from './cloud.jpg';
 import weatherDataFilter from './logic';
 
-
-// CHANGING BACKGROUND
-// Clouds
-// Fog
-// clear
-
 // FETCHING WEATHER APP
 
 const consoleLogData = (weatherData) => {
@@ -105,7 +99,7 @@ const pushToDom = (parsedWeather) => {
 
 // ASYNC FUNCTION
 
-const getWeatherData = async (location, units = 0) => {
+const getWeatherData = async (location) => {
   const apiKey = '6bec4de18a94a1ec6fd65b14fff7ae04';
   const tempUnits = 'metric';
   const apiCall = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=${tempUnits}&appid=${apiKey}`;
