@@ -122,6 +122,8 @@ search.EnterPress = () => {
   search.Click = () => {
     document.querySelector('.search-button')
       .addEventListener('click', () => {
+        const temp = document.querySelector('.real-temp');
+        temp.classList.add('pb-2');
         const location = document.querySelector('input').value;
         getWeatherData(location);
       });

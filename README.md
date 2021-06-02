@@ -29,7 +29,7 @@
 
 ## Live Version
 
-* [Live Demo](https://sergiocortessat.github.io) 
+* [Live Demo](https://sergiocortessat.github.io/JSWeatherApp/) 
 
 <!-- ABOUT THE PROJECT   -->
 ## About The Project
