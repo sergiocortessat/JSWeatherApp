@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://www.fontzip.com/storage/2020/03/06/god-of-thunder/webfonts/god-of-thunder-Medium.css);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  background-color: red;\\n  font-family: \\\"god-of-thunder-Medium\\\", cursive;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://JSWeatherApp/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  font-family: \\\"Amatic SC\\\", cursive;\\n  color: white;\\n}\\n\\nbody,\\nhtml {\\n  height: 100%;\\n}\\n\\n.body-background {\\n  line-height: normal;\\n  overflow-x: hidden;\\n  height: 100%;\\n  background-position: center;\\n  background-repeat: no-repeat;\\n  background-size: cover;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://JSWeatherApp/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -50,13 +50,23 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
-/***/ "./src/OdibeeSans-Regular.ttf":
-/*!************************************!*\
-  !*** ./src/OdibeeSans-Regular.ttf ***!
-  \************************************/
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _weatherFaviCon_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./weatherFaviCon.png */ \"./src/weatherFaviCon.png\");\n/* harmony import */ var _sunny_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./sunny.jpg */ \"./src/sunny.jpg\");\n\n\n\n\n// FETCHING WEATHER APP\nconst location = 'London';\nconst apiKey = '303a464ea9aa375660872ba0d5b3afc0';\nconst apiCall = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}`;\nconst getWeatherData = async () => {\n  const response = await fetch(apiCall);\n  const weatherData = await response.json();\n  console.log(weatherData);\n};\ngetWeatherData();\n\nconst body = document.getElementById('body');\nconst image = new Image();\nimage.src = _sunny_jpg__WEBPACK_IMPORTED_MODULE_2__;\nbody.style.backgroundImage = `url(${_sunny_jpg__WEBPACK_IMPORTED_MODULE_2__})`;\n\n\n//# sourceURL=webpack://JSWeatherApp/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/sunny.jpg":
+/*!***********************!*\
+  !*** ./src/sunny.jpg ***!
+  \***********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"e408091ae28f9b9fef39.ttf\";\n\n//# sourceURL=webpack://JSWeatherApp/./src/OdibeeSans-Regular.ttf?");
+eval("module.exports = __webpack_require__.p + \"3857b3f827a10c0e8e62.jpg\";\n\n//# sourceURL=webpack://JSWeatherApp/./src/sunny.jpg?");
 
 /***/ }),
 
@@ -67,16 +77,6 @@ eval("module.exports = __webpack_require__.p + \"e408091ae28f9b9fef39.ttf\";\n\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"04fb1e2f4ec7ec4e0917.png\";\n\n//# sourceURL=webpack://JSWeatherApp/./src/weatherFaviCon.png?");
-
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _OdibeeSans_Regular_ttf__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OdibeeSans-Regular.ttf */ \"./src/OdibeeSans-Regular.ttf\");\n/* harmony import */ var _weatherFaviCon_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./weatherFaviCon.png */ \"./src/weatherFaviCon.png\");\n\n\n\n\n//# sourceURL=webpack://JSWeatherApp/./src/index.js?");
 
 /***/ })
 
