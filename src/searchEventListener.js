@@ -7,7 +7,7 @@ search.EnterPress = () => {
     .addEventListener('keyup', (keyPressed) => {
       if (keyPressed.which === 13) {
         const location = document.querySelector('input').value;
-        getWeatherData(location);
+        getWeatherData(location, 'metric');
       }
     });
   search.Click = () => {
@@ -16,12 +16,20 @@ search.EnterPress = () => {
         const content = document.querySelector('.content');
         content.classList.add('py-3', 'px-2');
         const location = document.querySelector('input').value;
-        getWeatherData(location);
+        getWeatherData(location, 'metric');
       });
   };
   search.Button = () => {
     document.querySelector('.temp-button')
-      .addEventListener('click', () => {
+      .addEventListener('click', (e) => {
+        const content = document.querySelector('.content');
+        content.classList.add('py-3', 'px-2');
+        const location = document.querySelector('input').value;
+        if (e.target.innerHTML === 'FAHRENHEIT') {
+          getWeatherData(location, 'imperial');
+        } else {
+          getWeatherData(location, 'metric');
+        }
       });
   };
 };

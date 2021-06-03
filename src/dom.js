@@ -1,6 +1,6 @@
 // PUSH TO DOM
 import selectBackground from './selectBackground';
-import { weatherTemp } from './logic';
+// import weatherTemp from './logic';
 
 const pushToDom = (parsedWeather) => {
   // SELECTING BACKGROUND
@@ -9,7 +9,7 @@ const pushToDom = (parsedWeather) => {
   const tempButton = document.querySelector('.temp-button');
   tempButton.classList.remove('d-none');
   tempButton.classList.add('btn', 'btn-secondary', 'cel', 'my-3');
-  tempButton.innerText = 'FAHRENHEIT';
+  tempButton.innerText = parsedWeather.measureUnits;
 
   // SELECTING AND CLEAN selectBackground DOM
   const resultsDiv = document.querySelector('.content');
@@ -40,14 +40,14 @@ const pushToDom = (parsedWeather) => {
 
   const tempElement = document.createElement('p');
   tempElement.textContent = parsedWeather.condition;
-  tempElement.innerHTML += '&#8451';
+  tempElement.innerHTML += parsedWeather.symbol;
 
   const realTempName = document.createElement('p');
   realTempName.textContent = 'Real Thermal Feeling';
 
   const realTempElement = document.createElement('p');
   realTempElement.textContent = parsedWeather.realFeel;
-  realTempElement.innerHTML += '&#8451';
+  realTempElement.innerHTML += parsedWeather.symbol;
 
   // APPEND CHILD'S
 
@@ -56,19 +56,6 @@ const pushToDom = (parsedWeather) => {
   tempDiv.append(tempName, tempElement);
   realTempDiv.append(realTempName, realTempElement);
   resultsDiv.append(tempButton, nameDiv, weatherDiv, tempDiv, realTempDiv);
-
-  // TEMPERATURE BUTTON EVENT LISTENER
-
-  tempButton.addEventListener('click', () => {
-    weatherTemp(tempButton,
-      tempDiv,
-      realTempDiv,
-      tempName,
-      tempElement,
-      realTempElement,
-      realTempName,
-      parsedWeather);
-  });
 };
 
 export default pushToDom;
