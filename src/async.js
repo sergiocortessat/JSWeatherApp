@@ -1,6 +1,5 @@
 import { weatherDataFilter } from './logic';
 import pushToDom from './dom';
-
 // ASYNC FUNCTION // FETCHING WEATHER APP
 
 const getWeatherData = async (location) => {
@@ -15,7 +14,6 @@ const getWeatherData = async (location) => {
   } catch (err) {
     const error = document.querySelector('.error');
     const tempButton = document.querySelector('.real-temp');
-    tempButton.classList.add('d-none');
     error.innerHTML = `
     <div class="alert alert-danger" role="alert">
     This is a danger alert—check it out!
