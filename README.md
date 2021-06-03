@@ -60,7 +60,7 @@ Terminal or similar to execute the program.
 - To get a local copy up and running follow these simple example steps.
 - Clone this repository with git clone ```https://github.com/sergiocortessat/JSWeatherApp``` using your terminal or command line.
 - Change to the project directory by entering: ```cd JSWeatherApp``` in the terminal.
-- Enter the project folder and set the repo with its correspodet using npm install.
+- Enter the project folder and set the repo with its correspondent using npm install.
 - After this run the command npx run start
 - If the project cant be build, please run npx webpack.
 

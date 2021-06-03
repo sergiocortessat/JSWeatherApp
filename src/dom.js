@@ -1,17 +1,17 @@
 // PUSH TO DOM
-import selectBakcground from './selectBackground';
+import selectBackground from './selectBackground';
 import { weatherTemp } from './logic';
 
 const pushToDom = (parsedWeather) => {
   // SELECTING BACKGROUND
-  selectBakcground(parsedWeather);
+  selectBackground(parsedWeather);
   // TEMP WEATHER BUTTON
   const tempButton = document.querySelector('.temp-button');
   tempButton.classList.remove('d-none');
   tempButton.classList.add('btn', 'btn-secondary', 'cel', 'my-3');
   tempButton.innerText = 'FAHRENHEIT';
 
-  // SELECTING AND CLEAN selectBackgroundDOM
+  // SELECTING AND CLEAN selectBackground DOM
   const resultsDiv = document.querySelector('.content');
   const nameDiv = document.querySelector('.name');
   nameDiv.innerHTML = '';
