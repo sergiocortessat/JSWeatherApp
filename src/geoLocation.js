@@ -16,7 +16,8 @@ const getLocation = async (lat, lon) => {
     const response = await fetch(apiCall2);
     const coordinatesCity = await response.json();
     const cityName = coordinatesCity.localityInfo.administrative[3].name;
-    return cityName;
+    const cityName2 = coordinatesCity.city;
+    return cityName === '' ? cityName2 : cityName;
   } catch (err) {
     // status.textContent = 'Unable to find the city';
     errorHandler();
