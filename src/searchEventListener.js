@@ -24,7 +24,7 @@ search.EnterPress = () => {
       .addEventListener('click', (e) => {
         const content = document.querySelector('.content');
         content.classList.add('py-3', 'px-2');
-        const location = document.querySelector('input').value;
+        const location = document.querySelector('.name').innerText;
         if (e.target.innerHTML === 'FAHRENHEIT') {
           getWeatherData(location, 'imperial');
         } else {
