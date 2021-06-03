@@ -1,4 +1,5 @@
-const weatherDataFilter = (data, location, units) => {
+const weatherDataFilter = (data, location, units, coor = 0) => {
+  const coord = coor;
   const cityName = location;
   const condition = data.main.temp;
   const weather = data.weather[0].description;
@@ -23,6 +24,7 @@ const weatherDataFilter = (data, location, units) => {
     weatherBackground,
     measureUnits,
     symbol,
+    coord,
   };
 };
 

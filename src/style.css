@@ -51,3 +51,8 @@ input {
   border-radius: 10px;
   color: red;
 }
+
+#find-me {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
