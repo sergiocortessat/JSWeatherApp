@@ -13,10 +13,9 @@ const getWeatherData = async (location) => {
     pushToDom(test);
   } catch (err) {
     const error = document.querySelector('.error');
-    const tempButton = document.querySelector('.real-temp');
     error.innerHTML = `
-    <div class="alert alert-danger" role="alert">
-    This is a danger alert—check it out!
+    <div class="alert alert-primary" role="alert">
+    Sorry. We couldn't find the city. Try again!
     </div>`;
     setTimeout(() => {
       error.innerHTML = '';
