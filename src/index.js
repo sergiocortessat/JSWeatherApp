@@ -6,18 +6,18 @@ import geoLocation from './geoLocation';
 
 function geoFindMe() {
   const status = document.querySelector('#status');
-  //   const mapLink = document.querySelector('#map-link');
+    const mapLink = document.querySelector('#map-link');
 
-  //   mapLink.href = '';
-  //   mapLink.textContent = '';
+    mapLink.href = '';
+    mapLink.textContent = '';
 
   function success(position) {
     const { latitude } = position.coords;
     const { longitude } = position.coords;
 
     status.textContent = '';
-    // mapLink.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}`;
-    // mapLink.textContent = `Latitude: ${latitude} °, Longitude: ${longitude} °`;
+    mapLink.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}`;
+    mapLink.textContent = `Latitude: ${latitude} °, Longitude: ${longitude} °`;
     const content = document.querySelector('.content');
     content.classList.add('py-3', 'px-2');
     const location = geoLocation(latitude, longitude);
