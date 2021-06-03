@@ -15,11 +15,40 @@
       crossorigin="anonymous"
     />
 
-    <link rel="icon" type="image/png" sizes="32x32" href="04fb1e2f4ec7ec4e0917.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="04fb1e2f4ec7ec4e0917.png"
+    />
     <title>Weather App</title>
   </head>
 
-  <body class="container">
+  <body id="body" class="body-background">
+    <header class="header"></header>
+    <div class="text-center">
+      <h1>Type a City</h1>
+      <div class="error"></div>
+      <div class="search-bar container d-flex mt-5 w-50">
+        <input
+          type="text"
+          placeholder="Enter city name"
+          class="form-control m-1"
+        />
+        <button class="search-button bi-search btn btn-secondary m-1"></button>
+      </div>
+    </div>
+
+    <div class="content my-2 text-center">
+      <button class="temp-button d-none"></button>
+      <div class="name"></div>
+
+      <div class="weather"></div>
+
+      <div class="temp"></div>
+      <div class="real-temp"></div>
+    </div>
+
     <script src="bundle.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

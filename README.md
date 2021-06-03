@@ -1,4 +1,4 @@
-# To Do List
+# Weather App
 
 ## Table of Contents
   <br />
@@ -17,27 +17,28 @@
 ![Javascript](https://img.shields.io/badge/Javascript-3776AB?style=for-the-badge&logo=javascript&logoColor=white) <br/>
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-092E20?style=for-the-badge&logo=bootstrap&logoColor=white) <br/>
 ![Webpack](https://img.shields.io/badge/Webpack-092E20?style=for-the-badge&logo=webpack&logoColor=white) <br/>
+![API](https://img.shields.io/badge/api-092E20?style=for-the-badge&logo=api&logoColor=white) <br/>
+
 
 
 <br />
 
 ### Built With
 
-* [JAVASCRIPT] [BOOTSTRAP] [WEBPACK] [BABEL]
+* [JAVASCRIPT] [BOOTSTRAP] [WEBPACK] [BABEL] [API]
 
 ## Live Version
 
-* [Live Demo](https://sergiocortessat.github.io/JS_ToDoList/) 
+* [Live Demo](https://sergiocortessat.github.io/JSWeatherApp/) 
 
 <!-- ABOUT THE PROJECT   -->
 ## About The Project
-The To-Do-List web application allows user to set different projects (Lists name) and set different to-do items for each project individually. Each project can hold as many to-do-items as the users wishes. He can edit its information, mark each to-do task as completed, clear the completed tasks and delete the main project folder.
-
+The Weather Web Application allows user to set different cities and check the forecast weather for the upcoming 24 hours. As such the app makes usage of API with Async to constantly render and display the most accurate information of the weather. therefore updating itself every certain time. Each person can check and set the city they wish and the weather will appear. Animations allow for the user to know the current conditions and upcoming ones for the next hours and days..
 
 ## Screenshot Test
 
 <p align="center">
-  <img height="auto" src="Screenshot.png">
+  <img height="auto" src="Screenshot2.png">
 </p>
 
 
@@ -57,16 +58,18 @@ Terminal or similar to execute the program.
 ## Clone project
 
 - To get a local copy up and running follow these simple example steps.
-- Clone this repository with git clone ```https://github.com/sergiocortessat/JS_ToDoList``` using your terminal or command line.
-- Change to the project directory by entering: ```cd JS_ToDoList``` in the terminal.
-- Enter the project folder and run locally by using npm start.
+- Clone this repository with git clone ```https://github.com/sergiocortessat/JSWeatherApp``` using your terminal or command line.
+- Change to the project directory by entering: ```cd JSWeatherApp``` in the terminal.
+- Enter the project folder and set the repo with its correspondent using npm install.
+- After this run the command npx run start
 - If the project cant be build, please run npx webpack.
 
 ## Command line steps
 ```
-- $ git clone `$ git clone https://github.com/sergiocortessat/JS_ToDoList
+- $ git clone `$ git clone https://github.com/sergiocortessat/JSWeatherApp
 - $ git checkout develop
-- $ cd JS_ToDoList
+- $ cd JSWeatherApp
+- $npm i
 - $ npm start
 - ##(If project doesn't build, please run): $ npx webpack
 ```
@@ -77,7 +80,7 @@ Terminal or similar to execute the program.
 
 - Github: [@sergiocortessat](https://github.com/sergiocortessat)
 - Twitter: [@sergiocortessat](https://twitter.com/sergiocortessat)
-- LinkedIn: [@sergiocortessat](www.linkedin.com/in/sergio-cortes-satizabal-3b452194)
+- LinkedIn: [@sergiocortessat](https://www.linkedin.com/in/sergio-cortes-satizabal-3b452194/)
 
 
 <!-- ACKNOWLEDGEMENTS -->
