@@ -19,6 +19,11 @@ search.EnterPress = () => {
         getWeatherData(location);
       });
   };
+  search.Button = () => {
+    document.querySelector('.temp-button')
+      .addEventListener('click', () => {
+      });
+  };
 };
 
 export default search;

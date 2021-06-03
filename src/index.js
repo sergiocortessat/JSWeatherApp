@@ -4,3 +4,4 @@ import searchEventListener from './searchEventListener';
 
 searchEventListener.EnterPress();
 searchEventListener.Click();
+searchEventListener.Button();
