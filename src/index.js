@@ -6,10 +6,10 @@ import geoLocation from './geoLocation';
 
 function geoFindMe() {
   const status = document.querySelector('#status');
-  const mapLink = document.querySelector('#map-link');
+  //   const mapLink = document.querySelector('#map-link');
 
-  mapLink.href = '';
-  mapLink.textContent = '';
+  //   mapLink.href = '';
+  //   mapLink.textContent = '';
 
   function success(position) {
     const { latitude } = position.coords;
@@ -25,7 +25,6 @@ function geoFindMe() {
     //   console.log(city);
       getWeatherData(city, 'metric');
     });
-    // getWeatherData('puck', 'metric');
   }
 
   function error() {
@@ -48,8 +47,8 @@ function geoFindMe() {
   }
 }
 
-document.querySelector('#find-me').addEventListener('click', geoFindMe);
-
+geoFindMe();
+// document.querySelector('#find-me').addEventListener('click', geoFindMe);
 searchEventListener.EnterPress();
 searchEventListener.Click();
 searchEventListener.Button();
