@@ -43,3 +43,10 @@ input {
 .weather > img {
   min-width: 100px;
 }
+
+.alert {
+  width: 30%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}

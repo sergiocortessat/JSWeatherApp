@@ -12,4 +12,50 @@ const weatherDataFilter = (data, location) => {
   };
 };
 
-export default weatherDataFilter;
+const weatherTemp = (tempButton,
+  tempDiv,
+  realTempDiv,
+  tempName,
+  tempElement,
+  realTempElement,
+  realTempName,
+  parsedWeather) => {
+  if (tempButton.classList.contains('cel')) {
+    tempButton.classList.remove('cel');
+    tempButton.innerText = 'CELSIUS';
+    tempDiv.innerHTML = '';
+    const innerTempName = document.createElement('p');
+    innerTempName.textContent = 'Temperature';
+    const innerTempElement = document.createElement('p');
+    innerTempElement.textContent = parsedWeather.fCondition;
+    innerTempElement.innerHTML += '&#8457';
+    tempDiv.append(innerTempName, innerTempElement);
+
+    realTempDiv.innerHTML = '';
+    const innerRealTempName = document.createElement('p');
+    innerRealTempName.textContent = 'Real Thermal Feeling';
+    const innerRealTempElement = document.createElement('p');
+    innerRealTempElement.textContent = parsedWeather.fCondition;
+    innerRealTempElement.innerHTML += '&#8457';
+    realTempDiv.append(innerRealTempName, innerRealTempElement);
+  } else {
+    tempButton.classList.add('cel');
+    tempDiv.innerHTML = '';
+    realTempDiv.innerHTML = '';
+    tempDiv.append(tempName, tempElement);
+    realTempDiv.append(realTempName, realTempElement);
+    tempButton.innerText = 'FAHRENHEIT';
+  }
+
+  return {
+    tempButton,
+    tempDiv,
+    realTempDiv,
+    tempName,
+    tempElement,
+    realTempElement,
+    realTempName,
+  };
+};
+
+export { weatherTemp, weatherDataFilter };
