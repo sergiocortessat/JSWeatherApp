@@ -33,7 +33,7 @@
 
 <!-- ABOUT THE PROJECT   -->
 ## About The Project
-The Weather Web Application allows user to automatically detect the users current location and display its weather conditions. As well the user can set different cities and check the forecast weather for the specific selection. As such the app makes usage of API with Async to constantly render and display the most accurate information of the weather. therefore updating itself every certain time. Each person can check and set the city they wish and the weather will appear or relay on its Geolocation set up by allowing the location settings.
+The Weather Web Application allows users to automatically detect the users' current location and display its weather conditions. As well the user can set different cities and check the forecast weather for the specific selection. As such the app makes usage of API with Async to constantly render and display the most accurate information of the weather. therefore updating itself every certain time. Each person can check and set the city they wish and the weather will appear or rely on its Geolocation set up by allowing the location settings.
 
 ## Screenshot Test
 
