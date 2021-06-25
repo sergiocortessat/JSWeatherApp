@@ -19,3 +19,14 @@ const selectBackground = (parsedWeather) => {
 };
 
 export default selectBackground;
+
+// export function weatherImg(weather) {
+//   const bgImg = {
+//     rain: 'rain.jpeg',
+//     clear: 'clear.webp',
+//     clouds: 'clouds.jpeg',
+//     snow: 'snow.jpeg',
+//     default: 'bg.jpeg',
+//   };
+//   return `/images/${bgImg[weather.toLowerCase()] || bgImg.default}`;
+// }
