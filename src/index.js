@@ -3,6 +3,7 @@ import './assets/weatherFaviCon.png';
 import searchEventListener from './searchEventListener';
 import getWeatherData from './async';
 import geoLocation from './geoLocation';
+import './assets/Screenshot2.png';
 
 function geoFindMe() {
   const status = document.querySelector('#status');
